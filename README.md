@@ -18,3 +18,10 @@ Get the value of a key
 ```sh
 ini-reader <path-to-ini-file> <section-name> <key>
 ```
+
+### Try
+
+```sh
+zig build run -- <path-to-ini-file> <section-name> [<key>]
+```
+
