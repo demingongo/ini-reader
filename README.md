@@ -1,7 +1,13 @@
 # ini-reader
 Reads INI file and outputs a section or the value of a key in a section.
 
-### HOW-TO
+### Build
+
+```sh
+zig build
+```
+
+### HOW-TO-USE
 
 List keys and values of a section
 ```sh

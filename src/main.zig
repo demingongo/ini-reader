@@ -80,7 +80,7 @@ pub fn main() !u8 {
 
     // read args 1 to .. (do not define end so we do not run into "index out of bounds")
     // btw loop index (i) always starts at 0
-    for (args[1..]) |arg, i| {
+    for (args[1..], 0..) |arg, i| {
         switch (i) {
             0 => {
                 file_path = arg;
